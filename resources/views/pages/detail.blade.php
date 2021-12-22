@@ -9,9 +9,16 @@
         <section class="section-detail-header"></section>
         <section class="section-detail-content">
             <div class="container">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
                 <div class="row ml-2">
                     <div class="col p-0">
-                        <nav>
+
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     Paket Travel
